@@ -25,6 +25,7 @@ module VkontakteApi
       end
 
       # Returns a hash without empty fields. Field is empty, when it's value is one of these:
+      # nil
       # '' - empty string
       # '  ' - string consisting only of whitespaces
       # [] - array without elements
